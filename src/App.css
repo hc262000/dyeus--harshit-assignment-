@@ -1,38 +1,208 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Lobster&family=Poppins:wght@100&family=Quicksand:wght@300&display=swap");
+.navbar {
+  margin-top: 2px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 10px;
+  height: 40px;
+  box-shadow: rgba(181, 224, 226, 0.19) 0px 10px 20px,
+    rgba(168, 217, 219, 0.23) 0px 6px 6px;
+  z-index: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left {
+  margin-left: 8;
+  margin-right: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right {
+  margin-right: 8;
+  margin-left: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page1 {
+  margin-top: 4px;
+  background: linear-gradient(
+    180deg,
+    #fff6fb 0%,
+    #e7f6fc 33.33%,
+    rgba(213, 224, 255, 0) 100%
+  );
+  height: fit-content;
+  padding: 10px;
+}
+.body-material {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading2 {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 30px;
+  text-align: center;
+  color: #1b1b50;
+}
+.aboutp {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1b1b50;
+}
+.aboutparagraph {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  line-height: 179%;
+  /* or 25px */
+
+  color: #000000;
+}
+.line {
+  margin-top: 2rem;
+  border: 1px solid #000000;
+  width: 90%;
+  margin-left: 5%;
+}
+.mission {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 179%;
+  /* or 29px */
+
+  text-align: center;
+
+  color: #1b1b50;
+}
+.para2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 179%;
+  /* or 29px */
+
+  text-align: center;
+
+  color: #1b1b50;
+}
+.para3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 179%;
+  /* or 29px */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+/* Page no2 */
+.page2 {
+  padding: 1rem;
+  background: linear-gradient(
+    165.41deg,
+    #d99ec9 0%,
+    rgba(246, 240, 196, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #1b1b50;
+  font-size: 22px;
+  line-height: 33px;
+  font-family: "Poppins", sans-serif;
+  font-weight: #1b1b50;
+  font-weight: 700;
+  margin-left: 34px;
+}
+.subheading {
+  color: #1b1b50;
+  font-size: 38px;
+  margin-left: 34px;
+  line-height: 43px;
+  font-family: "Lobster";
+  font-weight: #1b1b50;
+  font-weight: 500;
+}
+.para {
+  color: #1b1b50;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25.2px;
+  margin-left: 34px;
+}
+
+/* page3 */
+.page3 {
+  padding: 1rem;
+  background: #dce9e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.liberate {
+  color: #1b1b50;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 700;
+}
+.products {
+  font-size: 32px;
+  line-height: 43.14px;
+  font-family: "Lobster";
+  font-weight: 500;
+  color: #000000;
+}
+.button2 {
+  background: linear-gradient(
+    297.28deg,
+    #f66e6e 67.01%,
+    rgba(246, 110, 110, 0) 123.71%
+  );
+
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
+  line-height: 29.79px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border-radius: 26px;
+  border: none;
   color: white;
+  font-weight: 600;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
+.button2:hover {
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.comment {
+  font-weight: 500;
+  font-family: "Poppins";
+  align-items: center;
+  line-height: 33px;
+  color: #000000;
 }
+/* pexels-karolina-grabowska-4041391 */
