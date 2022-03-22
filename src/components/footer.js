@@ -37,7 +37,7 @@ export default function Footer() {
             />
           </span>
           <span className="item">
-            <a href="/">Products</a>
+            <a href="/">Vision & Mission</a>
             <ArrowForwardIosIcon
               style={{
                 fontSize: "15",
@@ -46,7 +46,7 @@ export default function Footer() {
             />
           </span>
           <span className="item">
-            <a href="/">Products</a>
+            <a href="/">About Us</a>
             <ArrowForwardIosIcon
               style={{
                 fontSize: "15",
