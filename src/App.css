@@ -206,6 +206,7 @@
   color: #000000;
 }
 /* pexels-karolina-grabowska-4041391 */
+
 /* page4 */
 .page4 {
   padding: 1rem;
@@ -331,4 +332,106 @@
 }
 .button4:hover {
   cursor: pointer;
+}
+
+/* page7 */
+.page7 {
+  display: flex;
+  justify-content: center;
+  padding: 39px;
+  padding-bottom: 52px;
+  background: #f66e6e;
+  flex-direction: column;
+}
+.heading3 {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+.paragraph {
+  padding: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* page8 */
+.page8 {
+  display: flex;
+  background: linear-gradient(180deg, #fff6fb 0%, #e7f6fc 100%);
+  padding: 60px;
+  justify-content: center;
+}
+/* footer */
+.footer {
+  padding: 10px;
+  background: #050506;
+  padding-bottom: 62px;
+}
+.socialmedia {
+  text-align: end;
+}
+.items {
+  margin-left: 20px;
+  justify-content: flex-start;
+}
+.item {
+  width: fit-content;
+  display: flex;
+
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* identical to box height, or 29px */
+
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.newsletter {
+  margin-left: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8.94737px;
+  line-height: 206.5%;
+  /* or 18px */
+
+  color: #ffffff;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid #e7f6fc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 30px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 206.5%;
+
+  color: #000000;
+}
+.formbox {
+  margin-right: 10px;
 }

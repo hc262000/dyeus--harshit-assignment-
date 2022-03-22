@@ -7,6 +7,10 @@ import Body3 from "./components/body3"
 import Body4 from "./components/body4"
 import Body5 from "./components/body5"
 import Body6 from "./components/body6"
+import Body7 from "./components/body7"
+import Body8 from "./components/body8"
+import Footer from "./components/footer"
+
 function App() {
   return (
     <>
@@ -17,6 +21,9 @@ function App() {
     <Body4 />
     <Body5 />
     <Body6 />
+    <Body7 />
+    <Body8 />
+    <Footer />
     
     </>
    
